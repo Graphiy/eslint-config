@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-graphiy",
+  "version": "0.0.1",
+  "description": "eslint Graphiy config based on Airbnb's",
+  "license": "MIT",
+  "repository": "graphiy/eslint-config-graphiy",
+  "author": "Graphiy",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "graphiy",
+    "quality",
+    "eslint",
+    "validate",
+    "code style"
+  ],
+  "devDependencies": {
+    "eslint": "^4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.6.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "2.7.0"
+  }
+}
