@@ -1,31 +1,35 @@
 {
-  "name": "eslint-config-graphiy",
+  "name": "@graphiy/eslint-config",
   "version": "0.0.1",
-  "description": "eslint Graphiy config based on Airbnb's",
+  "description": "Graphiy version of eslint config based on Airbnb's",
+  "keywords": [
+    "code style",
+    "eslint",
+    "graphiy-module",
+    "quality",
+    "validate"
+  ],
   "license": "MIT",
-  "repository": "graphiy/eslint-config-graphiy",
   "author": "Graphiy",
   "files": [
     "index.js"
   ],
+  "main": "src/collection.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Graphiy/eslint-config"
+  },
   "scripts": {
     "test": "node test/test.js"
   },
-  "keywords": [
-    "graphiy",
-    "quality",
-    "eslint",
-    "validate",
-    "code style"
-  ],
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "2.7.0"
+  },
   "devDependencies": {
     "eslint": "^4.6.0"
   },
   "peerDependencies": {
     "eslint": ">=4.6.0"
-  },
-  "dependencies": {
-    "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-plugin-import": "2.7.0"
   }
 }
