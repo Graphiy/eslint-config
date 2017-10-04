@@ -30,6 +30,12 @@ module.exports = {
     'no-underscore-dangle': 0,
     // non-critical errors can be just catched
     'no-empty': ['error', { allowEmptyCatch: true }],
+    // short conditional function call is highly readable
+    'no-unused-expressions': ['error', { 'allowTernary': true }],
+    // enable the following use case:
+    // function (a, b, ...args) {
+    //   _.isEmpty(arguments)
+    'prefer-rest-params': 0,
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true,
     }],

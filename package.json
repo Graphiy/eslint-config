@@ -1,6 +1,6 @@
 {
   "name": "@graphiy/eslint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Graphiy version of eslint config based on Airbnb's",
   "keywords": [
     "code style",
@@ -27,9 +27,9 @@
     "eslint-plugin-import": "2.7.0"
   },
   "devDependencies": {
-    "eslint": "^4.6.0"
+    "eslint": "^4.8.0"
   },
   "peerDependencies": {
-    "eslint": ">=4.6.0"
+    "eslint": ">=4.3.0"
   }
 }
