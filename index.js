@@ -10,6 +10,8 @@ module.exports = {
     indent: ['error', 2],
     'vars-on-top': 0,
     'comma-dangle': ['error', 'always-multiline'],
+    // useful but cannot handle all cases
+    'consistent-return': 0,
     'space-before-function-paren': ['error', 'always'],
     // clean after debugging
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
@@ -31,7 +33,7 @@ module.exports = {
     // non-critical errors can be just catched
     'no-empty': ['error', { allowEmptyCatch: true }],
     // short conditional function call is highly readable
-    'no-unused-expressions': ['error', { 'allowTernary': true }],
+    'no-unused-expressions': ['error', { allowTernary: true }],
     // enable the following use case:
     // function (a, b, ...args) {
     //   _.isEmpty(arguments)
