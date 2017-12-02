@@ -5,6 +5,8 @@ module.exports = {
     'prefer-destructuring': ['error', { AssignmentExpression: { array: false } }],
     // Automatic semicolon insertion saves time and symbols
     semi: ['error', 'never'],
+    // ensure semicolon when it is needed
+    'semi-style': ['error', 'first'],
     'func-names': 0,
     // 4 symbols is too much for max 100 string length
     indent: ['error', 2],
