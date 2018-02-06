@@ -43,6 +43,8 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true,
     }],
+    // algebra is a must
+    'no-mixed-operators': 0,
   },
   parserOptions: {
     sourceType: 'module',
