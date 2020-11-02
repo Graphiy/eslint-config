@@ -1,6 +1,6 @@
 {
   "name": "@graphiy/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Graphiy version of eslint config based on Airbnb's",
   "keywords": [
     "code style",
@@ -14,7 +14,7 @@
   "files": [
     "index.js"
   ],
-  "main": "src/collection.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Graphiy/eslint-config"
@@ -23,13 +23,13 @@
     "test": "node test/test.js"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-plugin-import": "2.7.0"
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "2.22.1"
   },
   "devDependencies": {
-    "eslint": "^4.8.0"
+    "eslint": "^7.12.1"
   },
   "peerDependencies": {
-    "eslint": ">=4.3.0"
+    "eslint": ">=7.0.0"
   }
 }

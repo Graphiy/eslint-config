@@ -9,7 +9,7 @@ module.exports = {
     'semi-style': ['error', 'first'],
     'func-names': 0,
     // 4 symbols is too much for max 100 string length
-    indent: ['error', 2],
+    indent: ['error', 2, { 'SwitchCase': 1 }],
     'vars-on-top': 0,
     'comma-dangle': ['error', 'always-multiline'],
     // useful but cannot handle all cases
@@ -32,7 +32,7 @@ module.exports = {
     'no-continue': 0,
     // naming convention for private methods and params
     'no-underscore-dangle': 0,
-    // non-critical errors can be just catched
+    // non-critical errors can be just caught
     'no-empty': ['error', { allowEmptyCatch: true }],
     // short conditional function call is highly readable
     'no-unused-expressions': ['error', { allowTernary: true }],
@@ -45,6 +45,14 @@ module.exports = {
     }],
     // algebra is a must
     'no-mixed-operators': 0,
+    'eol-last': ['error', 'never'],
+    'operator-linebreak': ['error', 'after'],
+    'default-case': 0,
+    'object-curly-newline': ["error", { "consistent": true }],
+    'arrow-parens': ["error", "as-needed"],
+    'no-use-before-define': ['error', { 'functions': false }],
+    'import/prefer-default-export': 0,
+    'radix': ['error', 'as-needed']
   },
   parserOptions: {
     sourceType: 'module',
