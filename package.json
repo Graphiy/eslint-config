@@ -1,6 +1,6 @@
 {
   "name": "@graphiy/eslint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Graphiy version of eslint config based on Airbnb's",
   "keywords": [
     "code style",
