@@ -43,6 +43,8 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true,
     }],
+    "import/no-named-as-default-member": 0,
+    'import/prefer-default-export': 0,
     // algebra is a must
     'no-mixed-operators': 0,
     'eol-last': ['error', 'never'],
@@ -51,7 +53,6 @@ module.exports = {
     'object-curly-newline': ["error", { "consistent": true }],
     'arrow-parens': ["error", "as-needed"],
     'no-use-before-define': ['error', { 'functions': false }],
-    'import/prefer-default-export': 0,
     'radix': ['error', 'as-needed']
   },
   parserOptions: {
